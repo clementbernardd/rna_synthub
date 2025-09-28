@@ -13,8 +13,7 @@
 - `raw`: folder with the structures from the RNA-SyntHub dataset.
   - `angles`: extracted angles from the raw dataset
   - `distance`: extracted distances from the raw dataset
-  - `PDB`: raw PDB structures for the RNA-SyntHub dataset (RFDiffusion, Boltz-1, RNAComposer) and the native dataset used as a comparison.
+  - `PDB`: raw PDB structures for the RNA-SyntHub dataset (RFDiffusion, Boltz-1, RNAComposer) 
+ and the native dataset used as a comparison. The structures for RNA-SyntHub is in `raw` folder.
+We also include predictions from other structures in the `raw_all` folder.
 - `times`: folder with the data from times benchmark
-
-
-
