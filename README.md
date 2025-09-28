@@ -23,7 +23,7 @@ The repo is structured as follows:
 
 - `data/`: folder containing the data used in the repo (figures, example pdb files, etc.) as well as the `.pdb` structures
   - `img/`: folder containing the figures used in the README
-  - `pdb/`: folder containing example `.pdb` files
+  - `raw/`: folder containing example `.pdb` files
   - `examples`: folder containing example output files of the different steps of the pipeline
   - `metadata`: folder containing example extracted information from the RNA-SyntHub dataset
   - `times`: folder containing times benchmark on the subset of 1000 structures
