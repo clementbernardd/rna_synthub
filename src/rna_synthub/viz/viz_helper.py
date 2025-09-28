@@ -13,7 +13,7 @@ class VizHelper:
     def __init__(self, in_dir_path: str, out_path: str):
         self.in_dir_path = in_dir_path
         self.out_path = out_path
-        self.df_seq = pd.read_csv("data/metadata/meta_scores.csv", index_col=[0])
+        self.df_seq = pd.read_csv("data/metadata/filter/meta_scores.csv", index_col=[0])
 
     def run(self):
         list_files = os.listdir(self.in_dir_path)
