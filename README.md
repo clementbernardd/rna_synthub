@@ -38,14 +38,13 @@ make install_rnaqua
 ```
 To compute alignment, you need to install [mlocarna](https://github.com/s-will/LocARNA) and [cd-hit](https://sites.google.com/view/cd-hit).
 You can go to `src/rna_synthub/locarna_helper.py` to change the path of the binaries if needed.
-For `cd-hit`, you need to compile it first using:
+To install `cd-hit`, you need to compile it first using:
 ```bash
 make install_cd_hit
 ```
-
-You can install the visualisation using pip:
+To install `mlocarna`, I used: 
 ```bash
-pip install rna_synthub
+make install_locarna
 ```
 
 # Usage
@@ -68,9 +67,9 @@ You can run the script using:
 ```bash
 make run_example
 ```
-or, if you installed the library using pip:
+or
 ```bash
-python synt_example
+uv run python synt_example
 ```
 
 
@@ -80,7 +79,7 @@ To run the code to obtain the different visualisation, you can use:
 ```bash
 make run_viz
 ```
-or, if you installed the library using pip: 
+or
 ```bash
 python viz_cli
 ```

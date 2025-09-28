@@ -5,6 +5,11 @@ install_rnaqua:
 	rm rnaqua-binary.zip
 	chmod u+x helper/rnaqua/rnaqua-binary/bin/rnaqua.sh
 
+
+install_locarna:
+	conda install -c conda-forge -c bioconda locarna
+
+
 install_cd_hit:
 	mkdir -p lib/cd_hit
 	git clone https://github.com/weizhongli/cdhit.git lib/cd_hit

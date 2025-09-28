@@ -96,8 +96,8 @@ class ScriptExample:
     @staticmethod
     def compute_clustering():
         params = {
-           "in_fasta_file" : "data/times/2d/structures.csv",
-            "out_path": "data/times/2d/clustering.csv"
+           "in_fasta_file" : "data/examples/2d/structures.csv",
+            "out_path": "data/examples/2d/clustering.csv"
         }
         LocaRNAHelper(**params).run()
 
@@ -121,13 +121,13 @@ class ScriptExample:
 
 def main():
     # ScriptExample.compute_n_meta()
-    # ScriptExample.compute_filter()
-    # ScriptExample.compute_2d()
-    # ScriptExample.compute_clustering()
+    #ScriptExample.compute_filter()
+    #ScriptExample.compute_2d()
+    ScriptExample.compute_clustering()
 
     # Script to extract angles and distances
     # ScriptExample.extract_angles()
-    ScriptExample.extract_distances()
+    #ScriptExample.extract_distances()
 
 if __name__ == "__main__":
     main()

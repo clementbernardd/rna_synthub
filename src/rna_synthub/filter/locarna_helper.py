@@ -7,7 +7,8 @@ import click
 import pandas as pd
 import tqdm
 
-from rna_synthub.filter.utils import parse_clusters, read_aln, save_sequences_as_fasta
+from rna_synthub.filter.utils import parse_clusters, read_aln, save_sequences_as_fasta, \
+    read_fasta_multiple
 
 COMMAND_LOCARNA = "mlocarna $IN_PATH --tgtdir $OUT_DIR -q --keep-sequence-order --cpus=8"
 COMMAND_CD_HIT = "lib/cd_hit/cd-hit -i $IN_PATH -o $OUT_DIR -n 5 -c 0.9 -M 16000 -d 0 -T 0 -l 100"

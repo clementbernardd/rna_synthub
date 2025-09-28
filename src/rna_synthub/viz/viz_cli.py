@@ -85,9 +85,9 @@ class VizCLI:
         # VizCLI.viz_funnel()
         # VizCLI.viz_filter()
         # VizCLI.viz_best_worst()
-        # VizCLI.viz_distance()
-        # VizCLI.viz_sf()
-        # VizCLI.viz_times()
+        #VizCLI.viz_distance()
+        #VizCLI.viz_sf()
+        #VizCLI.viz_times()
         VizCLI.viz_angles()
 
 def main():
