@@ -10,7 +10,7 @@
         - `clustered.csv`: obtained cluster after applying locarna
         - `filtered.csv`: obtained dataset before applying locarna
         - `top_50k.csv`: obtained dataframe with top 50K data: scoring functions and filtering steps
-- `raw`: folder with the structures from the RNA-SyntHub dataset.
+- `raw`: folder with the structures from the RNA-SyntHub dataset. It can be downloaded from this [link](https://zenodo.org/records/17222400)
   - `angles`: extracted angles from the raw dataset
   - `distance`: extracted distances from the raw dataset
   - `PDB`: raw PDB structures for the RNA-SyntHub dataset (RFDiffusion, Boltz-1, RNAComposer) 

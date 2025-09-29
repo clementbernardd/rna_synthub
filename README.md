@@ -7,6 +7,8 @@
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 [![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json)](https://github.com/astral-sh/uv)
 [![Python](https://img.shields.io/pypi/pyversions/tensorflow.svg)](https://badge.fury.io/py/tensorflow)
+[![DOI](https://img.shields.io/badge/doi-10.5281%2Fzenodo.1234567-blue.svg)](https://doi.org/10.5281/zenodo.17222400)
+
 
 </div>
 
@@ -18,7 +20,7 @@ and enforced by predictions from [RNAComposer](https://rnacomposer.cs.put.poznan
 
 # Repo structure:
 
-To download the data of RNA-SyntHub (structures from RFDiffusion, RNAComposer and Boltz-1), you can find the data on this [link]().
+To download the data of RNA-SyntHub (structures from RFDiffusion, RNAComposer and Boltz-1), you can find the data on this [link](https://zenodo.org/records/17222400).
 The repo is structured as follows:
 
 - `data/`: folder containing the data used in the repo (figures, example pdb files, etc.) as well as the `.pdb` structures
